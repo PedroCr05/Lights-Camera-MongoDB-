@@ -2,7 +2,7 @@ const mongoose = require(`mongoose`);
 
 mongoose
   .connect(
-    `mongodb+srv://PedroCr05:2hjmI1jKWsKbdvGq@clusters.k4z0f.mongodb.net/GA-Theatre?retryWrites=true&w=majority&appName=clusters`
+    `mongodb+srv://PedroCr05:WHATisApasswordGOODsir@clusters.k4z0f.mongodb.net/GA-Theatre?retryWrites=true&w=majority&appName=clusters`
   )
   .then(() => {
     console.log(`
