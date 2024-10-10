@@ -1,1 +1,14 @@
 const Schema = require(`mongoose`);
+
+const ActorSchema = new Schema(
+  {
+    name: { type: String, required: true },
+    age: { type: Number, required: true },
+    deceased: { type: Boolean, required: true },
+    oscarsAwardAchieved: { type: Boolean, required: true },
+    howManyOscars: { type: Number, required: true },
+  },
+  { timestamps: true }
+);
+
+module.exports = ActorSchema;
